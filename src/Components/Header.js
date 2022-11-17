@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 export const Header = () => {
   return (
-    <header className="sticky shadow-lg top-0 grid grid-cols-2">
+    <header className=" shadow-lg top-0 grid grid-cols-2">
       <div className="pl-1 pt-3 pb-3 md:pt-5 md:pl-10 md:pb-5">
         <img
           className="cursor-pointer"
@@ -84,4 +84,4 @@ export const Header = () => {
       </div>
     </header>
   );
-}
+};
